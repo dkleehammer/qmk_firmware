@@ -81,4 +81,7 @@
 //#define NO_ACTION_FUNCTION
 //#define DEBUG_MATRIX_SCAN_RATE
 
+// Permissive Hold for faster keycombos
+#define PERMISSIVE_HOLD
+
 #endif
