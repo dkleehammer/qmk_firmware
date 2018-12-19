@@ -47,8 +47,8 @@
 #define LED_BRIGHTNESS_LO       15
 #define LED_BRIGHTNESS_HI       255
 
-/* fix space cadet rollover issue */
-#define DISABLE_SPACE_CADET_ROLLOVER
+// /* fix space cadet rollover issue */
+// #define DISABLE_SPACE_CADET_ROLLOVER
 
 /* Set 0 if debouncing isn't needed */
 #define DEBOUNCE    5
@@ -59,7 +59,7 @@
 
 /* NKRO */
 #ifndef FORCE_NKRO
-    #define FORCE_NKRO  // Depends on NKRO_ENABLE.
+    // #define FORCE_NKRO  // Depends on NKRO_ENABLE.
 #endif
 
 /*
@@ -82,6 +82,6 @@
 //#define DEBUG_MATRIX_SCAN_RATE
 
 // Permissive Hold for faster keycombos
-#define PERMISSIVE_HOLD
+// #define PERMISSIVE_HOLD
 
 #endif
