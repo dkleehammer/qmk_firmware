@@ -39,9 +39,10 @@
     D7, E6, B4, D2, D4  \
   }
 
+// #define MATRIX_COL_PINS { F6, F7, B1, B3, B2, B6 }
 #define MATRIX_COL_PINS    \
   {                        \
-    F6, F7, B1, B3, B2, B6 \
+    F6, F7, F4, F5, B2, B6 \
   }
 
 /* COL2ROW or ROW2COL */
